@@ -1,0 +1,75 @@
+      <section>
+        <div id="choise">
+          <h1>набор опций для вашей компании</h1>
+          <div id="column1">
+            <div class="hexagon"><br>интернет магазин</div>
+            <div class="hexagon"></div>
+            <div class="hexagon"></div>
+            <div class="hexagon"></div>
+            <a href=""><div class="hexagon"></div></a>
+          </div>
+          <div id="column2">
+            <div class="hexagon"></div>
+            <div class="hexagon"></div>
+            <div class="hexagon"></div>
+            <div class="hexagon"></div>
+            <a href=""><div class="hexagon"></div></a>
+          </div>
+        </div>
+      </section>
+
+
+.hexagon {
+	width: 70px;
+	height: 100px;
+	background: rgba(255, 255, 255, 0.8);
+	position: relative;
+    margin-top: 5px;
+}
+.hexagon:before {
+	content: "";
+	position: absolute;
+	left: -25px; 
+	top: 0;
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-right: 25px solid rgba(255, 255, 255, 0.8);
+}
+.hexagon:after {
+	content: "";
+	position: absolute;
+	right: -25px; 
+	top: 0;
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 25px solid rgba(255, 255, 255, 0.8);
+}
+
+#column1 {
+    margin-left: 60px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+#column2 {
+    margin-top: 62px;
+    margin-left: 160px;
+    position: absolute;
+}
+
+.hexagon:hover {
+    
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(246, 137, 6, 0.8) 100%);
+}
+
+.hexagon:hover:after {
+    
+}
+
+.hexagon:hover:before {
+    border-right-color: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(246, 137, 6, 0.8) 100%);
+}
