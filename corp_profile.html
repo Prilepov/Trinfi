@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Соты</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="main_menu">
+          <li><a href="">Экосистема</a></li>
+          <li><a href="">Услуги</a></li>
+          <li><a href="">CRM-системы</a></li>
+        </ul>
+      </nav>
+      <div id="exit"></div>
+    </header>
+    <main>
+      <section>
+        <div id="pre_trinfi">
+          <div id="trinfi_rectangle">
+            <img id="logo" src="images/trinfi_logo.png">
+            <h2>наведи порядок в бизнесе -</h2>
+            <ul>
+              <li id="one">подключи crm-систему</li>
+              <li id="two">запусти маркетинг</li>
+              <li id="three">создай сайт</li>
+              <li id="four">найди партнеров</li>
+            </ul>
+            <h2>в экосистеме trinfi легко!</h2>
+            <button  onclick="window.location.href = '#';">подробнее</button>
+          </div>
+            <div id="circles">
+              <button class="circle" onclick="window.location.href = '#';"></button>
+              <button class="circle" onclick="window.location.href = '#';"></button>
+              <button class="circle" onclick="window.location.href = '#';"></button>
+            </div>
+        </div>
+      </section>
+
+      <section>
+
+        <div id="corp_profile_box">
+          <a href="">Профиль компании</a>
+          <div id="corp_profile_content">
+            
+            <div id="left_corp_content">
+              
+              <div>
+                <div>
+                  <p>Добавить логотп компании</p>
+                  <button id="not">Open file</button>  
+                </div>
+                <div>
+                  <p>Выбрать цвет фона</p>
+                  <button></button>
+                  <button></button>
+                  <button></button>
+                  <input name="color">
+                </div>
+              </div>
+
+              <div>
+                <p>добавить слоган<br>компании</p>
+              </div>
+
+              <div>
+                <h3>сотрудники</h3>
+                <div>
+                  <p>Администратор личного кабинета в экосистеме TRINFI</p>
+               </div>
+                <table>
+                  <tr>
+                    <td>
+                      <img class="user_avatar_profile_corp" src="images/i.jpg">
+                    </td>
+                    <td>
+                      <p>Егор Семенович Богатырев</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img class="user_avatar_profile_corp" src="images/i.jpg">
+                    </td>
+                    <td>
+                      <p>Егор Семенович Богатырев</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img class="user_avatar_profile_corp" src="images/i.jpg">
+                    </td>
+                    <td>
+                      <p>Егор Семенович Богатырев</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img class="user_avatar_profile_corp" src="images/i.jpg">
+                    </td>
+                    <td>
+                      <p>Егор Семенович Богатырев</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img class="user_avatar_profile_corp" src="images/i.jpg">
+                    </td>
+                    <td>
+                      <p>Егор Семенович Богатырев</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+              <div>
+                <img src="images/img_status_plus.png">
+                <p>статус компании в экосистеме TRINFI</p>
+              </div>
+
+            </div>
+
+            <div id="right_corp_content">
+              
+              <div>
+                <form id="corp_profile_form">
+                  <table class="corp_info_table">
+                    <tr>
+                      <td>Бренд</td>
+                      <td>ДВЕРИ ЗЕ БЕСТ</td>
+                      <td>
+                        <label class="checkbox-other" for="corp_name">
+                          <input type="checkbox" name="corp_name" id="corp_name" value="Corp_Name">
+                          <span></span>
+                        </label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Юр. наименование</td>
+                      <td>ООО “ДВЕРИ ЗЕ БЕСТ”</td>
+                      <td>
+                        <label class="checkbox-other" for="corp_ur_name">
+                          <input type="checkbox" name="corp_ur_name" id="corp_ur_name" value="Corp_Ur_Name">
+                          <span></span>
+                        </label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Телефон</td>
+                      <td>+7 900 600 30 20</td>
+                      <td>
+                        <label class="checkbox-other" for="corp_telephone">
+                          <input type="checkbox" name="corp_telephone" id="corp_telephone" value="Corp_Telephone">
+                          <span></span>
+                        </label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>e-mail</td>
+                      <td>dveryzebest@bogatirev</td>
+                      <td>
+                        <label class="checkbox-other" for="corp_email">
+                          <input type="checkbox" name="corp_email" id="corp_email" value="Corp_Email">
+                          <span></span>
+                        </label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>ИНН</td>
+                      <td>4706010203</td>
+                      <td>
+                        <label class="checkbox-other" for="corp_inn">
+                          <input type="checkbox" name="corp_inn" id="corp_inn" value="Corp_INN">
+                          <span></span>
+                        </label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>КПП</td>
+                      <td>470256789</td>
+                      <td>
+                        <label class="checkbox-other" for="corp_kpp">
+                          <input type="checkbox" name="corp_kpp" id="corp_kpp" value="Corp_KPP">
+                          <span></span>
+                        </label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>ОГРН</td>
+                      <td>1152531596354</td>
+                      <td>
+                        <label class="checkbox-other" for="corp_ogrn">
+                          <input type="checkbox" name="corp_ogrn" id="corp_ogrn" value="Corp_OGRN">
+                          <span></span>
+                        </label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Адрес</td>
+                      <td>г. Тредевятинск, ул. Гороховая, д. 77, оф.3 </td>
+                      <td>
+                        <label class="checkbox-other" for="corp_adres">
+                          <input type="checkbox" name="corp_adres" id="corp_adres" value="Corp_Adress">
+                          <span></span>
+                        </label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">Показывать мои данные только партнерам из Экосистемы TRINFI</td>
+                      <td>
+                        <label class="checkbox-other" for="corp_show_only">
+                          <input type="checkbox" name="corp_show_only" id="corp_show_only" value="Corp_Show_Only">
+                          <span></span>
+                        </label>
+                      </td>
+                    </tr>
+                  </table>
+                </form>
+              </div>  
+
+              <div>
+
+                <div>
+                  <p>товары и услуги</p>
+                </div>
+                
+                <div>
+                  <form id="corp_products_form">
+                    <table class="corp_products_table">
+                      <tr class="corp_lead_products">
+                        <td>розничная торговля</td>
+                        <td>
+                          <label class="checkbox-other" for="rt">
+                            <input type="checkbox" name="rt" id="rt" value="rt">
+                            <span></span>
+                          </label>
+                        </td>
+                      </tr>
+                      <tr class="corp_other_products">
+                        <td>входные двери</td>
+                        <td>
+                          <label class="checkbox-other" for="example_1">
+                            <input type="checkbox" name="example_1" id="example_1" value="example_1">
+                            <span></span>
+                          </label>
+                        </td>
+                      </tr>
+                      <tr class="corp_other_products">
+                        <td>межкомнатные двери</td>
+                        <td>
+                          <label class="checkbox-other" for="example_2">
+                            <input type="checkbox" name="example_2" id="example_2" value="example_2">
+                            <span></span>
+                          </label>
+                        </td>
+                      </tr>
+                      <tr class="corp_other_products">
+                        <td>фурнитура двери</td>
+                        <td>
+                          <label class="checkbox-other" for="example_3">
+                            <input type="checkbox" name="example_3" id="example_3" value="example_3">
+                            <span></span>
+                          </label>
+                        </td>
+                      </tr>
+                      <tr class="corp_lead_products">
+                        <td>сервисно-монтажные услуги</td>
+                        <td>
+                          <label class="checkbox-other" for="example_4">
+                            <input type="checkbox" name="example_4" id="example_4" value="example_4">
+                            <span></span>
+                          </label>
+                        </td>
+                      </tr>
+                      <tr><td colspan="2"></td></tr>
+                      <tr>
+                        <td>Проставьте галочки, если хотите, чтобы эту информацию видели другие
+                          пользователи Экосистемы TRINFI
+                        </td>
+                        <td>
+                          <label class="checkbox-other" for="corp_show_all">
+                            <input type="checkbox" name="corp_show_all" id="corp_show_all" value="Corp Show All">
+                            <span></span>
+                          </label>
+                        </td>
+                      </tr>
+                    </table>
+                  </form>  
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+      <aside>
+        <nav class="side_menu">
+          <ul>
+            <li id="icon1"><a href=""></a></li>
+            <li id="icon2"><a href=""></a></li>
+            <li id="icon3"><a href=""></a></li>
+            <li id="icon4"><a href=""></a></li>
+            <li id="icon5"><a href=""></a></li>
+            <li id="icon6"><a href=""></a></li>
+          </ul>
+        </nav>
+      </aside>
+    </main>
+    <footer>
+    <script src="script.js"></script>
+  </footer>
+  </body>
+</html>

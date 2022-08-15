@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Соты</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="main_menu">
+          <li><a href="">Экосистема</a></li>
+          <li><a href="">Услуги</a></li>
+          <li><a href="">CRM-системы</a></li>
+        </ul>
+      </nav>
+      <div id="exit"></div>
+    </header>
+    <main>
+      <section id="long">
+        <div id="pre_trinfi">
+          <div id="advertising">
+            <h2>конструктор рекламы</h2>
+            <p>Вы можете самостоятельно разместить рекламу в экосистеме TRINFI через разделы “Мой профиль” и “Профиль компании”.<br><br>
+              Она будет доступна для просмотра всем партнерам экосистемы TRINFI в следующих разделах сайта: “Главная”, “Бизнес-модель”, “Партнеры”, “Статистика”, “Чаты”.<br><br>
+              Конструктор рекламы прост в использовании и не требует специальных навыков, просто подгрузите готовое рекламное фото или же составьте рекламный баннер самостоятельно с помощью инструментов
+            </p>
+            <h2>тарифы</h2>
+            <form id="tariff_form" action="" method="post">
+              <table class="tariff_table">
+                <tr>
+                  <td>flash</td>
+                  <td>1 500 руб/день</td>
+                  <td>
+                    <label for="flash">
+                      <input type="button" class="choise_tariff" name="flash" id="flash" value="Подключить" />
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>week</td>
+                  <td>5 000 руб/неделя</td>
+                  <td>
+                    <label for="week">
+                      <input type="button" class="choise_tariff" name="week" id="week" value="Подключить" />
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>moon</td>
+                  <td>15 000 руб/месяц</td>
+                  <td>
+                    <label for="moon">
+                      <input type="button" class="choise_tariff" name="moon" id="moon" value="Подключить" />
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>happy</td>
+                  <td>50 000 руб/месяц</td>
+                  <td>
+                    <label for="happy">
+                      <input type="button" class="choise_tariff" name="happy" id="happy" value="Подключить" />
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1й слайд</td>
+                  <td>1000 руб/день</td>
+                  <td>
+                    <label for="1slaid">
+                      <input type="button" class="choise_tariff" name="1slaid" id="1slaid" value="Подключить" />
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2-4й слайд</td>
+                  <td>500 руб/день</td>
+                  <td>
+                    <label for="2_4slaid">
+                      <input type="button" class="choise_tariff" name="2_4slaid" id="2_4slaid" value="Подключить" />
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>5-10 слайд</td>
+                  <td>бесплатно</td>
+                  <td>
+                    <label for="5_10slaid">
+                      <input type="button" class="choise_tariff" name="5_10slaid" id="5_10slaid" value="Подключить" />
+                    </label>
+                  </td>
+                </tr>
+              </table>
+              <div class="tariff_button_final_container">
+                <button class="tariff_button_final" type="submit" id="calculate" onclick="window.location.href = '#';"></button>
+                <button class="tariff_button_final" id="tune" onclick="window.location.href = '#';"></button>
+                <button class="tariff_button_final" id="run" onclick="window.location.href = '#';"></button>
+              </div>
+              </form>
+          </div>
+      </section>
+      <section>
+        <div class="profile_main">
+          <div id="avatar_place">
+            <img class="avatar" src="images/profile_image.png">
+          </div>
+          <div class="profile_info_box">
+            <a href="">Мой профиль</a>
+            <form id="profile_form" action="" method="post">
+              <table class="profile_info_table">
+                <tr>
+                  <td>Имя</td>
+                  <td>Егор Семенович Богатырев</td>
+                  <td>
+                    <label class="checkbox-other" for="name">
+                      <input type="checkbox" name="name" id="name" value="Name">
+                      <span></span>
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Должность</td>
+                  <td>Руководитель отдела продаж</td>
+                  <td>
+                    <label class="checkbox-other" for="dolzhnost">
+                      <input type="checkbox" name="dolzhnost" id="dolzhnost" value="Dolzhnost">
+                      <span></span>
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Компания</td>
+                  <td>ДВЕРИ ЗЕ БЕСТ</td>
+                  <td>
+                    <label class="checkbox-other" for="company">
+                      <input type="checkbox" name="company" id="company" value="Company">
+                      <span></span>
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Телефон</td>
+                  <td>+7 900 600 30 20</td>
+                  <td>
+                    <label class="checkbox-other" for="telefone">
+                      <input type="checkbox" name="telefone" id="telefone" value="Telefone">
+                      <span></span>
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>e-mail</td>
+                  <td>dveryzebest@bogatirev</td>
+                  <td>
+                    <label class="checkbox-other" for="mail">
+                      <input type="checkbox" name="mail" id="mail" value="mail">
+                      <span></span>
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">Показывать мои данные только партнерам из экосистемы TRINFI</td>
+                  <td>
+                    <label class="checkbox-other" for="show_only">
+                      <input type="checkbox" name="show_only" id="show_only" value="Show_only">
+                      <span></span>
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2"><h3>Проставьте галочки, если хотите, чтобы эту информацию видели другие
+                    пользователи Экосистемы TRINFI</h3></td>
+                  <td>
+                    <label class="checkbox-other" for="show_trinfi">
+                      <input type="checkbox" name="show_trinfi" id="show_trinfi" value="Show_trinfi">
+                      <span></span>
+                    </label>
+                  </td>
+                </tr>
+              </table>
+              <table class="profile_pass">
+                <tr>
+                  <td>Текущий пароль</td>
+                  <td>
+                    <label for="oldPassword">
+                      <input id="oldPassword" type="password" name="oldPassword">
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Новый пароль</td>
+                  <td>
+                    <label for="newPassword">
+                      <input id="newPassword" type="password" name="newPassword">
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Повторить новый пароль</td>
+                  <td>
+                    <label for="repeatPassword">
+                      <input id="repeatPassword" type="password" name="repeatPassword">
+                    </label>
+                  </td>
+                </tr>
+              </table>
+              <button type="submit"  onclick="window.location.href = '#';" id="profile_save">Сохранить</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      
+      <aside>
+        <nav class="side_menu">
+          <ul>
+            <li id="icon1"><a href=""></a></li>
+            <li id="icon2"><a href=""></a></li>
+            <li id="icon3"><a href=""></a></li>
+            <li id="icon4"><a href=""></a></li>
+            <li id="icon5"><a href=""></a></li>
+            <li id="icon6"><a href=""></a></li>
+          </ul>
+        </nav>
+      </aside>
+    </main>
+    <footer>
+    <script src="script.js"></script>
+  </footer>
+  </body>
+</html>
