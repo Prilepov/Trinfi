@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url(../images/background.jpg) no-repeat top;
+    background: url(images/background.jpg) no-repeat top;
     background-attachment: fixed;
     background-size:cover;
     padding: 0%;
@@ -1373,7 +1373,7 @@ button:hover {
 }
 
 .corp_info_table tr td {
-    font-size: 16px;
+    font-size: calc ( 3px + 13 * ( 100vw / 1920 ));
     font-weight: 400;
     line-height: 19px;
     font-style: normal;
