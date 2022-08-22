@@ -905,54 +905,59 @@ button:hover {
 }
 
 .slide img {
-    width: 180px;
-    height: 180px;
+    width: 67%;
+    height: 67%;
 }
 
 .prevar {
     position: absolute;
-    right: 90px;
+    right: 8%;
     top: 110%;
     cursor: pointer;
-
+    width: 4.55%;
 }
 
 .nextar {
     position: absolute;
-    right: 20px;
+    right: 1%;
     top: 110%;
     cursor: pointer;
+    width: 4.55%;
 }
 
 /* Carousel slider corp_data */
+#sliders_box {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
 .block_slider_corp_data {
     background: var(--lead_background);
-    width: 1200px;
-    height: 312px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 25px 30px 30px 30px;
-    margin-bottom: 30px;
+    padding: 1.23% 1.46% 0 1.46%;
+    margin-bottom: 1.46%;
 }
 
 .block_slider_corp_data h2 {
     color: var(--lead_orange);
     font-weight: 600;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: calc( 17px + 12 * ( 100vw / 1920 ) );
+    line-height: calc( 22px + 12 * ( 100vw / 1920 ) );
     text-transform: uppercase;
-    margin: 0 auto 30px 0;
+    margin: 0 auto 2.36% 0;
 }
 
 .block_slider_corp_data h2 span {
     font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: calc( 7px + 12 * ( 100vw / 1920 ) );
+    line-height: calc( 10px + 12 * ( 100vw / 1920 ) );
 }
 
 .content_corp_data {
-    padding: 0px 90px 60px 90px;
+    padding: 0px 7.08% 4.72% 7.08%;
     width: 100%;
     box-sizing: border-box;
 }
@@ -976,16 +981,16 @@ button:hover {
 
 .popup {
     position: fixed;
-    --pop_up_width: 700px;
-    --pop_up_height: 680px;
+    --pop_up_width: 36.36%;
+    --pop_up_height: 78.13%;
     width: var(--pop_up_width);
     height: var(--pop_up_height);
-    top: calc((100% - var(--pop_up_height)) / 2 - 60px);
-    left: calc((100% - var(--pop_up_width)) / 2 - 60px);
+    top: calc((100% - var(--pop_up_height)) / 2 - 5.86%);
+    left: calc((100% - var(--pop_up_width)) / 2 - 5.86%);
     background: var(--lead_background);
     z-index: 99999;
     opacity: 1;
-    padding: 60px 60px 40px 60px;
+    padding: 2.93% 2.93% 1.96% 2.93%;
 }
 
 .popup-close {
@@ -1002,11 +1007,10 @@ button:hover {
 }
 
 #corp_top {
-    width: 180px;
-    height: 180px;
+    width: 21%;
     position: absolute;
-    top: -50px;
-    left: -50px;
+    top: -10.1%;
+    left: -5.8%;
 }
 
 #corp_name {
@@ -1019,7 +1023,7 @@ button:hover {
 
 #corp_name h2 {
     margin: 0 17% 0 0;
-    font-size: 20px;
+    font-size: calc( 7px + 12 * ( 100vw / 1920 ) );
 }
 
 #corp_logo_info {
@@ -1030,14 +1034,13 @@ button:hover {
 }
 
 #corp_logo {
-    width: 220px;
-    height: 220px;
+    width: 29.6%;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 2.7%;
 }
 
 #corp_logo img {
@@ -1047,9 +1050,9 @@ button:hover {
 #corp_logo p {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 14px;
+    font-size: calc( 1px + 12 * ( 100vw / 1920 ) );
     margin-bottom: 0;
-    margin-top: 8px;
+    margin-top: 3.63%;
 }
 
 #corp_info {
@@ -1058,9 +1061,9 @@ button:hover {
 }
 
 #corp_info p {
-    margin: 24px 15px 0 15px;
+    margin: 5.6% 3.46% 0 3.46%;
     font-weight: 400;
-    font-size: 14px;
+    font-size: calc( 1px + 12 * ( 100vw / 1920 ) );
 }
 
 #corp_data {
@@ -1068,12 +1071,12 @@ button:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
-    margin-top: 40px;
+    margin-top: 5.4%;
     height: 49%;
 }
 
 #corp_data button {
-    height: 47px;
+    height: 19.33%;
     background-color: transparent;
     border: 0.1em solid;
     border-radius: 0.5em;
@@ -1094,8 +1097,8 @@ button:hover {
 
 #corp_data_1 h2 {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: calc( 7px + 12 * ( 100vw / 1920 ) );
+    line-height: calc( 10px + 12 * ( 100vw / 1920 ) );
     text-align: center;
     text-transform: uppercase;
 }
@@ -1103,10 +1106,10 @@ button:hover {
 #corp_data_1 p,
 #corp_data_2 p {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    font-size: calc( 1px + 12 * ( 100vw / 1920 ) );
+    line-height: calc( 3px + 12 * ( 100vw / 1920 ) );
+    margin-top: 4.3%;
+    margin-bottom: 4.3%;
 }
 
 #corp_data_1 button,
@@ -1125,7 +1128,6 @@ button:hover {
 
 #corp_data_1 table tr,
 #corp_data_2 table tr {
-    height: 31px;
     background: #FCE0BE;
 }
 
@@ -1142,8 +1144,8 @@ button:hover {
     justify-content: space-between;
     align-items: stretch;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: calc( 1px + 12 * ( 100vw / 1920 ) );
+    line-height: calc( 2px + 12 * ( 100vw / 1920 ) );
     text-transform: uppercase;
 }
 
