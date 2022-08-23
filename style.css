@@ -9,13 +9,13 @@ body {
     background: url(images/background.jpg) no-repeat top;
     background-attachment: fixed;
     background-size:cover;
-    padding: 0%;
+    padding: 0 0 10% 0;
     margin: 0%;
     font-family: 'Raleway', sans-serif;
     font-size: calc( 1px + 12 * ( 100vw / 1920 ) );
     width: 100%;
     height: 100%;
-    min-height: 1280px;
+    min-height: 100vh;
 }
 
 header {
@@ -800,9 +800,9 @@ button:hover {
 }
 
 #triangle_block_left_quadro {
-    width: 1200px;
-    height: 125px;
-    margin: 30px 0 0 0;
+    width: 86.96em;
+    height: 9.06em;
+    margin: 2.01% 0 0 0;
     text-align: center;
     background: rgba(9, 3, 0, 0.5);
     border-radius: 5px;
@@ -812,85 +812,95 @@ button:hover {
 
 #triangle_block_left_quadro h1 {
     color: #F68906;
-    margin-top: 50px;
+    margin-top: 4.17%;
     font-weight: 600px;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: calc( 12px + 23 * ( 100vw / 1920 ) );
+    line-height: calc( 8px + 23 * ( 100vw / 1920 ) );
 }
 
 #triangle_block_left {
     width: 0;
     height: 0;
-    border-top: 600px solid rgba(9, 3, 0, 0.5);
-    border-right: 1200px solid transparent;
+    border-top: 43.5em solid rgba(9, 3, 0, 0.5);
+    border-right: 87em solid transparent;
+}
+
+#triangle_block_left div:first-child {
+    margin: -30.7em 0 0 3.04em;
+    width: 36em;
 }
 
 #triangle_block_left p {
     font-weight: 600;
-    font-size: 16px;
-    line-height: 16px;
-    margin: -485px 0 0 48px;
+    font-size: calc( 4px + 12 * ( 100vw / 1920 ) );
+    line-height: calc( 4px + 12 * ( 100vw / 1920 ) );
     color: #FFFFFF;
-    width: 382px;
-}
-
-#triangle_block_left h1 {
-    margin-top: -200px;
 }
 
 #triangle_block_right {
     width: 0;
     height: 0;
-    border-right: 580px solid rgba(9, 3, 0, 0.5);
-    border-top: 280px solid transparent;
-    border-bottom: 280px solid transparent;
-    margin-left: 620px;
-    margin-top: -565px;
+    border-right: 42.1em solid rgba(9, 3, 0, 0.5);
+    border-top: 20.33em solid transparent;
+    border-bottom: 20.3em solid transparent;
+    margin-left: 44.93em;
+    margin-top: -40.95em;
 }
 
 #status_plus {
     display: flex;
     align-items: center;
-    margin-right: -500px;
-    margin-top: 10px;
+    margin-right: -36.24em;
+    margin-top: -0.73em;
     float: right;
 }
 
 #status_plus p {
-    width: 180px;
+    width: 13em;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: calc( 1px + 12 * ( 100vw / 1920 ) );
+    line-height: calc( 2px + 12 * ( 100vw / 1920 ) );
     text-align: right;
     color: #FFFFFF;
-    margin-right: 16px;
+    margin-right: 5.06%;
+}
+
+#plus {
+    width: 8.71em;
+}
+
+#plus img {
+    width: 100%;
 }
 
 #triangle_block_bottom {
     width: 0;
     height: 0;
-    border-bottom: 300px solid rgba(9, 3, 0, 0.5);
-    border-right: 600px solid transparent;
-    border-left: 600px solid transparent;
-    margin-top: -265px;
+    border-bottom: 21.78em solid rgba(9, 3, 0, 0.5);
+    border-right: 43.56em solid transparent;
+    border-left: 43.56em solid transparent;
+    margin-top: -19.21em;
     margin-bottom: 0px;
 }
 
+#triangle_block_bottom div:first-child {
+    width: 37.7em;
+    text-align: center;
+    margin-left: -19.2em;
+    margin-top: 11.75em;
+    margin-bottom: 2.17em;
+}
+
 #triangle_block_bottom p {
-    width: 385px;
     font-weight: 500;
-    font-size: 22px;
-    line-height: 26px;
-    text-align: right;
+    font-size: calc( 9px + 12 * ( 100vw / 1920 ) );
+    line-height: calc( 13px + 12 * ( 100vw / 1920 ) );
     color: #FFFFFF;
-    position: static;
-    margin-left: -200px;
-    margin-top: 160px;
 }
 
 #triangle_block_bottom_quadro {
-    width: 1200px;
-    height: 240px;
+    width: 87.14em;
+    height: 17.42em;
     background: rgba(9, 3, 0, 0.5);
     margin-top: 0px;
 }
@@ -899,7 +909,7 @@ button:hover {
 
 .content {
     margin: auto;
-    padding: 0px 90px 60px 90px;
+    padding: 0px 7.5% 5% 7.5%;
     width: 100%;
     box-sizing: border-box;
 }
