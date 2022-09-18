@@ -905,21 +905,23 @@ button:hover {
 }
 
 .slide img {
-    width: 180px;
-    height: 180px;
+    width: 74.68%;
+    max-height: 13.84em;
 }
 
 .prevar {
+    width: 4.89%;
     position: absolute;
-    right: 90px;
+    right: 10%;
     top: 110%;
     cursor: pointer;
 
 }
 
 .nextar {
+    width: 4.89%;
     position: absolute;
-    right: 20px;
+    right: 1%;
     top: 110%;
     cursor: pointer;
 }
@@ -927,32 +929,31 @@ button:hover {
 /* Carousel slider corp_data */
 .block_slider_corp_data {
     background: var(--lead_background);
-    width: 1200px;
-    height: 312px;
+    width: 58.57%;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 25px 30px 30px 30px;
-    margin-bottom: 30px;
+    padding: 1.23% 1.46% 0 1.46%;
+    margin-bottom: 1.46%;
 }
 
 .block_slider_corp_data h2 {
     color: var(--lead_orange);
     font-weight: 600;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: calc( 9px + 20 * ( 100vw / 1920 ) );
+    line-height: calc( 9px + 20 * ( 100vw / 1920 ) );
     text-transform: uppercase;
-    margin: 0 auto 30px 0;
+    margin: 0 auto 2.64% 0;
 }
 
 .block_slider_corp_data h2 span {
     font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: calc( 6px + 13 * ( 100vw / 1920 ) );
+    line-height: calc( 6px + 16 * ( 100vw / 1920 ) );
 }
 
 .content_corp_data {
-    padding: 0px 90px 60px 90px;
+    padding: 0px 7.89% 5.26% 7.89%;
     width: 100%;
     box-sizing: border-box;
 }
