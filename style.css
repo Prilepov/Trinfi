@@ -222,7 +222,7 @@ button:hover {
 
 #choise {
     height: 120vh;
-    width: 13.52%;
+    width: 14.52%;
     background: linear-gradient(180deg, #3D260B 0%, rgba(61, 38, 11, 0) 100%);
     float: left;
 }
@@ -264,28 +264,22 @@ button:hover {
 }
 
 #column1 {
-    margin-left: 23px;
-    position: absolute;
-    padding-top: 107px;
-    width: 13.52%;
+    padding-left: 8.12%;
+    /* position: absolute; */
+    padding-top: 38.82%;
+    /* width: 13.52%; */
 }
 
 #column1 .hexagon,
-#column1 {
+{
     display: block !important;
     float: left;
 }
 
-#choise div {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-#column1 .hexagon:nth-child(odd) {
+/* #column1 .hexagon:nth-child(odd) {
     margin-top: -21.7%;
     margin-right: -9.02%;
-}
+} */
 
 #column1 div:nth-child(odd) {
     margin-top: -21.7%;
@@ -295,7 +289,7 @@ button:hover {
 /* Hexogen clusters*/
 
 #lead {
-    width: 47.87%;
+    width: 48%;
     display: flex;
 }
 
@@ -306,7 +300,7 @@ button:hover {
 }
 
 #first_cluster {
-    margin-top: 14.95%;
+    margin-top: 27.36%;
 }
 
 #first_cluster #seven {
@@ -315,10 +309,55 @@ button:hover {
 }
 
 #second_cluster {
-    margin-left: -5.39%;
-    margin-top: 1.61%;
+    margin-left: 4.1%;
+    margin-top: 2.95%;
 }
 
+#third_cluster {
+    margin-top: 8.84%;
+    margin-left: 3.33%;
+}
+
+#third_cluster #seven {
+    background: url(images/site_back.png) no-repeat center;
+    background-size: contain !important;
+}
+
+#fourth_cluster {
+    margin-top: 39.3%;
+    margin-left: -6.2%;
+}
+
+#fourth_cluster #seven {
+    background: url(images/polygon41.png) no-repeat center;
+    background-size: contain !important;
+
+}
+
+#fifth_cluster {
+    margin-top: 63.94%;
+    margin-left: -37.79%;
+}
+
+#fifth_cluster #seven {
+    background: url(images/finance_back.png) no-repeat center;
+    background-size: contain !important;
+}
+
+#sixth_cluster {
+    margin-top: 57.9%;
+    margin-left: -48.34%;
+}
+
+#sixth_cluster #seven {
+    background: url(images/auto_back.png) no-repeat center;
+    background-size: contain !important;
+}
+
+#center_cluster {
+    margin-top: 34.1%;
+    margin-left: -5.3%;
+}
 
 .seven1 {
     background: url(images/upr_back.png) no-repeat center !important;
@@ -348,52 +387,6 @@ button:hover {
 .seven6 {
     background: url(images/auto_back.png) no-repeat center !important;
     background-size: contain !important;
-}
-
-#third_cluster {
-    margin-top: 4.83%;
-    margin-left: -5.83%;
-}
-
-#third_cluster #seven {
-    background: url(images/site_back.png) no-repeat center;
-    background-size: contain !important;
-}
-
-#fourth_cluster {
-    margin-top: 21.49%;
-    margin-left: -11%;
-}
-
-#fourth_cluster #seven {
-    background: url(images/polygon41.png) no-repeat center;
-    background-size: contain !important;
-
-}
-
-#fifth_cluster {
-    margin-top: -7.5%;
-    margin-left: 5.89%;
-}
-
-#fifth_cluster #seven {
-    background: url(images/finance_back.png) no-repeat center;
-    background-size: contain !important;
-}
-
-#sixth_cluster {
-    margin-top: -4.23%;
-    margin-left: 0.44%;
-}
-
-#sixth_cluster #seven {
-    background: url(images/auto_back.png) no-repeat center;
-    background-size: contain !important;
-}
-
-#center_cluster {
-    margin-top: 18.61%;
-    margin-left: -10.56%;
 }
 
 .hexagon_cluster .hexagon {
